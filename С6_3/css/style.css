@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(23, 217, 214);
+}
+
+fieldset {
+    width: 320px;
+    padding-top: 5px;
+}
+
+.text {
+    width: 220px;
+    height: 41px;
+    border-color: blue;
+    border-radius: 10px;
+}
+
+.btn {
+    height: 41px;
+    margin-left: 10px;
+    background-color: rgba(0, 0, 255, 0.28);;
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.797);
+    cursor: pointer;
+}
+
+.btn:hover {
+    transform: scale(1.25);
+}
+
+.input-text {
+    margin-bottom: 15px;
+    
+}
+
+fieldset {
+    border-color: blue;
+    width: 400px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+#outputUser {
+    text-align: left;
+    border-color: blue;
+    border-radius: 4px;
+    border-style: solid;
+    margin-left: 140px;
+    margin-right: 4px;
+}
+
+#outputServer {
+    text-align: left;
+    border-color: blue;
+    border-radius: 4px;
+    border-style: solid;
+    margin-right: 140px;
+    margin-left: 4px;
+}
+
+#GEO {
+    text-align: left;
+    border-color: blue;
+    border-radius: 4px;
+    border-style: solid;
+    margin-left: 140px;
+    margin-right: 4px;
+}
